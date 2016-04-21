@@ -1,0 +1,83 @@
+{
+  "name": "angular-webpack-start",
+  "version": "1.0.0",
+  "description": "Project start up files with Angular and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp webpack-dev-server",
+    "test": "gulp test",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nclsptrs/angular-webpack-start.git"
+  },
+  "author": "Nicolas Peters",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Nicolas Peters"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/nclsptrs/angular-webpack-start/issues"
+  },
+  "homepage": "https://github.com/nclsptrs/angular-webpack-start#readme",
+  "keywords": [
+    "Angular",
+    "Webpack",
+    "Bootstrap",
+    "ESLint",
+    "Karma"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-toastr": "^1.7.0",
+    "angular-ui-bootstrap": "^1.3.2",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.1",
+    "lodash": "^4.11.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.5",
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "del": "^2.2.0",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-html-reporter": "^0.5.2",
+    "eslint-loader": "^1.3.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "filendir": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-inject": "^4.0.0",
+    "gulp-util": "^3.0.7",
+    "istanbul-instrumenter-loader": "^0.2.0",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^0.3.8",
+    "karma-js-coverage": "^0.4.0",
+    "karma-phantomjs2-launcher": "^0.5.0",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "^1.7.0",
+    "ng-annotate-loader": "^0.1.0",
+    "node-sass": "^3.4.2",
+    "phantomjs": "^2.1.7",
+    "phantomjs-polyfill": "0.0.2",
+    "raw-loader": "^0.5.1",
+    "run-sequence": "^1.1.5",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.1.0"
+  }
+}
