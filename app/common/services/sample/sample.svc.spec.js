@@ -33,13 +33,13 @@ describe('Service: sampleService', function () {
             names: [
                 {
                     firstName: 'firstName1',
-                    lastName: 'lastName1'
+                    lastName: 'lastName1',
                 },
                 {
                     firstName: 'firstName2',
-                    lastName: 'lastName2'
-                }
-            ]
+                    lastName: 'lastName2',
+                },
+            ],
         };
 
         expect(sampleService.getData).toBeDefined();

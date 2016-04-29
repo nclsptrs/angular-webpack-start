@@ -4,5 +4,5 @@ var services = require('./services');
 
 module.exports = angular.module('app.common', [
     directives,
-    services
+    services,
 ]).name;

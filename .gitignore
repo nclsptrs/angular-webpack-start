@@ -2,6 +2,3 @@ app/build
 node_modules
 reports
 dist
-tests
-semantic
-semantic.json

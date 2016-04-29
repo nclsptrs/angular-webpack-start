@@ -9,7 +9,7 @@ var components = require('./components');
 var app = function () {
     return {
         restrict: 'E',
-        template: require('./app.html')
+        template: require('./app.html'),
     };
 };
 
@@ -18,12 +18,12 @@ angular.module('app', [
     uiRouter,
     toastr,
     common,
-    components
+    components,
 ])
 .constant('config', {
     version: VERSION,	/* injected by webpack */	// eslint-disable-line  no-undef
     env: ENV,			/* injected by webpack */	// eslint-disable-line  no-undef
-    baseUrl: '/api'
+    baseUrl: '/api',
 })
 .directive('app', app)
 .config(defaultRoute);

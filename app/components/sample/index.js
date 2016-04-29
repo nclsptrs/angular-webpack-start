@@ -3,11 +3,10 @@ var uiRouter = require('angular-ui-router');
 
 var SampleController = require('./sample.ctrl.js');
 
-var component = angular.module('components.sample', [
-    uiRouter
-]);
-
-component.config(
+module.exports = angular.module('components.sample', [
+    uiRouter,
+])
+.config(
     /*@ngInject*/
     function ($stateProvider) {
         $stateProvider.state('sample', {
@@ -15,9 +14,8 @@ component.config(
             url: '/sample',
             template: require('./sample.html'),
             controller: SampleController,
-            controllerAs: 'vm'
+            controllerAs: 'vm',
         });
     }
-);
-
-module.exports = component.name;
+)
+.name;

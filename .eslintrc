@@ -31,6 +31,7 @@
         "no-unused-vars": [2, { "args": "none" }],
         "no-multiple-empty-lines": [1],
         "no-param-reassign": [2, {"props": false}],
-        "max-len": [0]
+        "max-len": [0],
+        'comma-dangle': [2, 'always'],
     }
 }

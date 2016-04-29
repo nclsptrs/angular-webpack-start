@@ -18,13 +18,13 @@ describe('Controller: SampleController', function () {
                     names: [
                         {
                             firstName: 'firstName1',
-                            lastName: 'lastName1'
+                            lastName: 'lastName1',
                         },
                         {
                             firstName: 'firstName2',
-                            lastName: 'lastName2'
-                        }
-                    ]
+                            lastName: 'lastName2',
+                        },
+                    ],
                 };
 
                 var defer = $q.defer();
@@ -35,7 +35,7 @@ describe('Controller: SampleController', function () {
             spyOn(sampleService, 'getData').and.callThrough();
 
             vm = $controller(ctrl, {
-                sampleService: sampleService
+                sampleService: sampleService,
             });
         });
     });
